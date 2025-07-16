@@ -92,7 +92,7 @@ ML_INTERACTION_PAIRS = [('sum_all', 'odd_count')]
 # 用于生成自身平方交互特征的特征
 ML_INTERACTION_SELF = ['span']
 # 计算号码"近期"出现频率时所参考的期数窗口大小
-RECENT_FREQ_WINDOW = 20
+RECENT_FREQ_WINDOW = 10
 # 在分析模式下，进行策略回测时所评估的总期数
 BACKTEST_PERIODS_COUNT = 100
 # 在优化模式下，每次试验用于快速评估性能的回测期数
