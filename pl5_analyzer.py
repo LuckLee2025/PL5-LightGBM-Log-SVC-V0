@@ -94,13 +94,13 @@ ML_INTERACTION_SELF = ['span']
 # 计算号码"近期"出现频率时所参考的期数窗口大小
 RECENT_FREQ_WINDOW = 10
 # 在分析模式下，进行策略回测时所评估的总期数
-BACKTEST_PERIODS_COUNT = 100
+BACKTEST_PERIODS_COUNT = 50
 # 在优化模式下，每次试验用于快速评估性能的回测期数
 OPTIMIZATION_BACKTEST_PERIODS = 20
 # 在优化模式下，Optuna 进行参数搜索的总试验次数
 OPTIMIZATION_TRIALS = 5
 # 训练机器学习模型时，一个号码在历史数据中至少需要出现的次数
-MIN_POSITIVE_SAMPLES_FOR_ML = 20
+MIN_POSITIVE_SAMPLES_FOR_ML = 5
 
 # ==============================================================================
 # --- 默认权重配置 (这些参数可被Optuna优化) ---
